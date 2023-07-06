@@ -43,3 +43,7 @@ The Replicator is licensed under the [MIT License](./LICENSE.md).
 
 ## Acknowledgements
 A big thank you to our incredible team, contributors, and users who make The Replicator possible. Your support and dedication drive us forward in this revolutionary journey.
+
+## Resources
+
+* [SuperAlignment by OPENAI](https://openai.com/blog/introducing-superalignment)
