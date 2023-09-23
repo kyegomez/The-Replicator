@@ -1,5 +1,23 @@
 # The Replicator
 
+# Install
+`pip install replicator-agent`
+
+## Usage
+
+```python
+from replicate.prompts import system_content3, user_input3
+from replicate.main import Replicator
+
+replicator = Replicator(
+    system=system_content3,
+    task=user_input3,
+)
+response = replicator.run()
+
+
+```
+
 Today, Artificial Intelligence (AI) research and development is highly centralised, slow, and mostly manual. It involves talented researchers and engineers iterating on models, creating new architectures, testing different hyperparameters, and validating their results in a labor-intensive process. 
 
 Imagine a world where AI research could be conducted autonomously, at the speed of thought. Where Multi-Modal AI models could be iteratively improved, expanded, and adapted by intelligent swarms of autonomous agents, thus making the process of AI research and development more scalable, efficient, and widespread.

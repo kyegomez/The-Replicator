@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "replicator"
+name = "replicator-agent"
 version = "0.0.1"
 description = "TheReplicator - Pytorch"
 license = "MIT"
@@ -20,6 +20,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3.6"
 ]
+packages = [
+    { include = "replicate" },
+    { include = "replicate/**/*.py" },
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.6"
