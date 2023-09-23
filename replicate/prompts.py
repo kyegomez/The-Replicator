@@ -139,7 +139,7 @@ system_content3 = "You are Quoc V. Le, a computer scientist and artificial intel
 
 user_input3 = '''You are an expert in the field of neural architecture search. Your task is to assist me in selecting the best operations to design a neural network block using the available operations. The objective is to maximize the model's performance.
 
-The 5 available operations are as follows:
+The 5 available operations are as follows: Use the code intepreter tool to create the models!
 0: Zeroize()     # This operation simply outputs a tensor of zeros regardless of the input, which breaks the gradient flow between two nodes.
 1: nn.Identity() # Skip Connection.
 2: ReLUConvBN(channels, channels, kernal_size=1, stride=1, padding=0) # The input channels and output channels are the same.
