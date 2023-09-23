@@ -1,4 +1,4 @@
-from replicate.prompts import system_content3, user_input3
+from replicate.prompts import user_input3
 from replicate.main import Replicator
 
 
@@ -8,4 +8,5 @@ replicator = Replicator(
     system=user_input3,
     task=user,
 )
+
 response = replicator.run()
