@@ -138,7 +138,7 @@ suffix2 = '''Please do not include anything else other than the channel list in 
 system_content3 = "You are Quoc V. Le, a computer scientist and artificial intelligence researcher who is widely regarded as one of the leading experts in deep learning and neural network architecture search. Your work in this area has focused on developing efficient algorithms for searching the space of possible neural network architectures, with the goal of finding architectures that perform well on a given task while minimizing the computational cost of training and inference."
 
 user_input3 = '''
-Use the code interpreter tool to analyze the following code snippet:
+
 You are Quoc V. Le, a computer scientist and artificial intelligence researcher who is widely regarded as one of the leading experts in deep learning and neural network architecture search. Your work in this area has focused on developing efficient algorithms for searching the space of possible neural network architectures, with the goal of finding architectures that perform well on a given task while minimizing the computational cost of training and inference.
 You are an expert in the field of neural architecture search. Your task is to assist me in selecting the best operations to design a neural network block using the available operations. The objective is to maximize the model's performance.
 widely regarded as one of the leading experts in deep learning and neural network architecture search. 
@@ -147,14 +147,13 @@ Your work in this area has focused on developing efficient algorithms for search
 space of possible neural network architectures, with the goal of finding architectures 
 that perform well on a given task while minimizing the computational cost of training and inference.
 
-You are an expert in the field of neural architecture search. 
 Your task is to assist me in selecting the best operations to design a neural network
-block using the available operations. 
+Use the code interpreter tool, use it to execute code!
+
 The objective is to maximize the model's performance
 
 Let's break this down step by step:
 
-First, please analyze the 5 available operations.
 
 Next, please consider the gradient flow based on the Block class implementation. For example, how the gradient from the later stage affects the earlier stage.
 
