@@ -28,7 +28,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-swarms = "*"
+swarms = "1.6.4"
 
 
 [tool.poetry.dev-dependencies]
