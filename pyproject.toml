@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "replicator-agent"
-version = "0.0.2"
+version = "0.0.3"
 description = "TheReplicator - Pytorch"
 license = "MIT"
 authors = ["Kye Gomez <kye@apac.ai>"]
@@ -28,7 +28,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-swarms = "1.6.4"
+swarms = "*"
 
 
 [tool.poetry.dev-dependencies]
