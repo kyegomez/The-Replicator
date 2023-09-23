@@ -1,0 +1,6 @@
+exxa
+swarms
+
+mkdocs
+mkdocs-material
+mkdocs-glightbox
