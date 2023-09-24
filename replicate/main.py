@@ -13,7 +13,7 @@ class Replicator:
         node = Worker(
             openai_api_key="",
             ai_name="The Replicator",
-            ai_role="An AI that creates other AI models using pytorch",
+            ai_role="An AI that creates experimental AI models using pytorch for business and research purposes.",
         )
 
         prompt = f"{self.system} {self.task}"
