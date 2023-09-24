@@ -1,4 +1,5 @@
 # The Replicator
+*An Autonomous Swarm that Conducts Multi-Modal AI Research*
 
 # Install
 `pip install replicator-agent`
@@ -14,9 +15,9 @@ replicator = Replicator(
     task=user_input3,
 )
 response = replicator.run()
-
-
 ```
+
+# Purpose
 
 Today, Artificial Intelligence (AI) research and development is highly centralised, slow, and mostly manual. It involves talented researchers and engineers iterating on models, creating new architectures, testing different hyperparameters, and validating their results in a labor-intensive process. 
 
@@ -30,10 +31,6 @@ Enter The Replicator. Our secret sauce is making iterations at lightspeed. Using
 
 Why are we the ones to make this happen? Agora has 1,500 team members with extensive experience in AI research and development, distributed systems, and fast iteration methodologies. We understand the complexities and nuances of this task and are prepared to tackle them head-on. With our expertise, dedication, and innovative approach, we're primely positioned to make this revolutionary step in AI research and development a reality.
 
-# The Replicator
-*An Autonomous Swarm that Conducts Multi-Modal AI Research by Creating New Underlying Mathematical Operations and Models*
-
-Welcome to The Replicator. 
 
 ## Features
 - **Autonomous Multi-Modal AI Research:** Using swarm intelligence, The Replicator conducts autonomous AI research, developing new models and algorithms to improve AI capabilities.
@@ -48,11 +45,8 @@ Welcome to The Replicator.
 
 Join us on this exciting journey to revolutionize AI research and development, making it more autonomous, efficient, and far-reaching. Be a part of this groundbreaking venture and let's reshape the world of AI together!
 
-## Usage
-Please refer to our [Getting Started Guide](./Getting-Started.md) for instructions on how to install and use The Replicator. 
-
 ## Contributing
-We welcome contributors! Please see our [Contributing Guide](./Contributing.md) for more information on how to get involved.
+We welcome contributors!
 
 ## License
 The Replicator is licensed under the [MIT License](./LICENSE.md).
